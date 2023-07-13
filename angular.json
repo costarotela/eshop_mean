@@ -11,6 +11,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "deepmerge"
+            ],
             "outputPath": "dist/eshop/browser",
             "index": "client/src/index.html",
             "main": "client/src/main.ts",

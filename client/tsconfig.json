@@ -12,7 +12,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2018",
+    "target": "ES2022",  // modficado Pablo
+    "useDefineForClassFields": false,   // agregado Pablo
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2018", "dom", "ESNext.AsyncIterable"],
     "skipLibCheck": true,
